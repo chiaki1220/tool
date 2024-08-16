@@ -22,6 +22,6 @@ speed() {
     speed_test '43263'  'Newark, NJ'
 }
 
-mkdir -p /root/speedtest-cli && curl -sLo /root/speedtest-cli/speedtest https://github.com/chika0801/tool/raw/main/speedtest && chmod +x /root/speedtest-cli/speedtest
+mkdir -p /root/speedtest-cli && curl -sLo /root/speedtest-cli/speedtest https://github.com/chiaki1220/tool/raw/main/speedtest && chmod +x /root/speedtest-cli/speedtest
 clear && printf "%-18s%-18s%-20s%-12s\n" " Node Name" "Upload Speed" "Download Speed" "Latency"
 speed && rm -r speedtest-cli && rm -r /root/.config/ookla
